@@ -11,5 +11,28 @@
     ],
     "persistent": false
   },
+  "commands": {
+    "split-screen-left": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+L",
+        "mac": "Command+Shift+L"
+      },
+      "description": "split screen left"
+    },
+    "split-screen-right": {
+      "suggested_key": {
+        "windows": "Ctrl+Shift+D",
+        "mac": "Command+Shift+D"
+      },
+      "description": "split screen right"
+    },
+    "split-screen-full": {
+      "suggested_key": {
+        "windows": "Ctrl+Shift+S",
+        "mac": "Ctrl+Shift+S"
+      },
+      "description": "split screen full"
+    }
+  },
   "manifest_version": 2
 }
