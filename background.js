@@ -14,15 +14,19 @@ const commands = {
   },
 };
 
-chrome.commands.onCommand.addListener(command => {
+const getActiveTab = () => new Promise(resolve => {
   chrome.tabs.query({
     active: true,
     currentWindow: true
   }, (tabs) => {
-    chrome.windows.create({
-      tabId: tabs[0].id,
-      ...commands[command]
-    })
+    resolve(tabs[0].id)
   })
-})
+});
 
+chrome.commands.onCommand.addListener(async command => {
+  const tabId = await getActiveTab();
+  chrome.windows.create({
+    tabId,
+    ...commands[command]
+  })  
+})

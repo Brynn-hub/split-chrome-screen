@@ -13,4 +13,5 @@
 [code](https://github.com/Brynn-hub/split-chrome-screen/tree/feature/add-command)
 
 ## 2. 代码优化
-1. 将background.js里的switch和提变量
+1. 将background.js里的switch和提变量[code](https://github.com/Brynn-hub/split-chrome-screen/tree/feature/optimize-switch)
+2. 为了避免出现地狱回调，使用promise优化chrome.tabs.query
