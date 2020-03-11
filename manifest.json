@@ -1,0 +1,15 @@
+{
+  "name": "Split Chrome Screen",
+  "version": "1.0",
+  "description": "Build an Extension!",
+  "permissions": [
+    "tabs"
+  ],
+  "background": {
+    "scripts": [
+      "background.js"
+    ],
+    "persistent": false
+  },
+  "manifest_version": 2
+}
