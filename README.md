@@ -15,4 +15,4 @@
 ## 2. 代码优化
 1. 将background.js里的switch优化和提变量[code](https://github.com/Brynn-hub/split-chrome-screen/tree/feature/optimize-switch)
 2. 为了避免出现地狱回调，使用[promise](http://www.ruanyifeng.com/blog/2015/05/async.html)优化chrome.tabs.query[code](https://github.com/Brynn-hub/split-chrome-screen/tree/feature/optimize-promise)
-3. 使用[command设计模式](https://www.runoob.com/design-pattern/command-pattern.html)优化第一步的代码
+3. 使用[command设计模式](https://www.runoob.com/design-pattern/command-pattern.html)优化第一步的代码[code](https://github.com/Brynn-hub/split-chrome-screen/tree/feature/command)
