@@ -7,6 +7,8 @@
   ],
   "background": {
     "scripts": [
+      "command.js",
+      "tab.js",
       "background.js"
     ],
     "persistent": false
